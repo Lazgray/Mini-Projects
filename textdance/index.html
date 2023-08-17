@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Dance</title>
+</head>
+<body>
+    <header>
+        <h1>Text Dance</h1>
+    </header>
+    <section>
+        <div>
+            <p>Escreva um texto para aparecer na caixa:</p>
+                <input type="text" id="txtbox">
+        </div>
+        <div>
+            <input type="button" value="Confirmar" onclick="animarTexto()">
+        </div>
+    </section>
+
+    <input type="radio" name="background" id="background1" checked>
+    <label for="background1">Light mode</label>
+    <input type="radio" name="background" id="background2">
+    <label for="background2">Dark mode</label>
+
+    <div id="container">
+        <span id="letter">
+           <i>Se divirta!</i>
+        </span>
+    </div>       
+    <footer>
+        <em>&copy; Lazy Corporations </em>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
